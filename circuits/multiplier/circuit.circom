@@ -10,7 +10,13 @@ template ANDgate() {
 }
 
 
-template ORgate() {
+template ORgate() {echo "# module-3-polygon" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/21bcs5941/module-3-polygon.git
+git push -u origin main
     signal input a;
     signal input b;
     signal output out;
